@@ -12,7 +12,7 @@ Github Repository / Code for the Opensight.ch Blog Series "Journey to an intelli
 |Description   |Link       |
 |--------------|-----------|
 |opensight.ch website | [opensight.ch](opensight.ch) |
-| Azure Bot Blog Series Part 1 - Services Deployment | [link](https://opensight-ch.ghost.io/ghost/#/editor/post/646642dc6a751b0001004778) |
+| Azure Bot Blog Series Part 1 - Services Deployment | [link](https://blog.opensight.ch/azure-chat-bot/) |
 
 
 # Downloads
