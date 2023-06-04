@@ -25,6 +25,37 @@ class IntentDialog extends CancelAndHelpDialog {
         this.initialDialogId = WATERFALL_DIALOG;
     }
 
+    getUserIntentFromPrompt(prompt) {
+        return new Promise(async (resolve, reject) => {
+            const res = await axios.post('https://butschi84-language-recognition.cognitiveservices.azure.com/language/:analyze-conversations?api-version=2022-10-01-preview', 
+                {
+                    "kind": "Conversation",
+                    "analysisInput": {
+                        "conversationItem": {
+                            "id": "roman",
+                            "text": prompt,
+                            "modality": "text",
+                            "language": "EN",
+                            "participantId": "roman"
+                        }
+                    },
+                    "parameters": {
+                        "projectName": "testbot",
+                        "verbose": true,
+                        "deploymentName": "testbot",
+                        "stringIndexType": "TextElement_V8"
+                    }
+                }, {
+                    headers: {
+                        'Ocp-Apim-Subscription-Key': '****',
+                        'Apim-Request-Id': '*****',
+                        'Content-Type': 'application/json'
+                    }
+            });
+            resolve(res.data)
+        })
+    }
+
     /**
      * ask for initial intent
      * order: food or beverage
@@ -48,7 +79,12 @@ class IntentDialog extends CancelAndHelpDialog {
      */
     async finalStep(stepContext) {
         const intentDetails = stepContext.options;
-        intentDetails.intent = stepContext.result.value;
+        intentDetails.intent = stepContext.result;
+
+        // microsoft CLU Services
+        const intentResult = await this.getUserIntentFromPrompt(intentDetails.intent)
+        intentDetails.intent = intentResult.result.prediction.topIntent;
+
         return await stepContext.endDialog(intentDetails);
     }
 
