@@ -1,0 +1,939 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0,
+            "normalizeCasing": false
+        },
+        "projectName": "testbot",
+        "multilingual": false,
+        "description": "",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "None"
+            },
+            {
+                "category": "order food"
+            },
+            {
+                "category": "order beverages"
+            }
+        ],
+        "entities": [
+            {
+                "category": "beverage",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "food",
+                "compositionSetting": "combineComponents"
+            }
+        ],
+        "utterances": [
+            {
+                "text": "I'd like to order a classic old-fashioned cocktail.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 42,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What types of liqueurs do you have behind the bar?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 14,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have a tall glass of iced hibiscus tea?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 27,
+                        "length": 17
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your specialty matcha latte.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a glass of freshly squeezed grapefruit juice?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 38,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have any local craft sodas?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 28,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a refreshing coconut water?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 25,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What types of non-dairy milk options do you offer?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 14,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your signature iced herbal tea blend.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have a glass of white wine, please?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 22,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have any unique house-infused cocktails?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 37,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a hot cup of herbal chamomile tea?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 30,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to order a fruity sangria.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 27,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What types of whiskey do you have available?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 14,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have a tall glass of iced green tea?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 27,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your seasonal pumpkin spice latte.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 30,
+                        "length": 19
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a bottle of imported sparkling wine?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 14
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you offer any flavored sparkling water?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 17,
+                        "length": 24
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have a glass of freshly squeezed orange juice?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 39,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to order a pint of craft beer.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 28,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What varieties of red wine do you offer?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 18,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a glass of cold brew coffee?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your specialty iced latte.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a creamy milkshake?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 21,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have any organic herbal teas?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 24,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have a tall glass of iced coffee?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 27,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your signature cocktail of the day.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What types of fresh juices do you have?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 20,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a classic margarita on the rocks?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 20,
+                        "length": 22
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to order a refreshing mojito.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you offer any craft beers on tap?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 17,
+                        "length": 11
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have a hot cup of cappuccino?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 24,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What flavors of smoothies do you have?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 16,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a cold bottle of sparkling water?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 27,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your house-made lemonade.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 21,
+                        "length": 19
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you offer any non-alcoholic mocktails?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 31,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have a tall glass of iced tea?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 27,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to order a glass of red wine.",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 29,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are your specialty cocktails?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [
+                    {
+                        "category": "beverage",
+                        "offset": 24,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I see your drink menu, please?",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like something to drink",
+                "language": "en-us",
+                "intent": "order beverages",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a grilled chicken sandwich with a side of sweet potato fries?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 14,
+                        "length": 24
+                    },
+                    {
+                        "category": "food",
+                        "offset": 54,
+                        "length": 18
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I add extra shrimp to my pasta dish?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'm in the mood for some comfort food. What do you recommend?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a margherita pizza with a side of marinara sauce?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 14,
+                        "length": 16
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have any nut-free dishes?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a thin-crust pizza with extra toppings?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 23,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are your popular appetizers?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to order a veggie wrap with extra avocado.",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 20,
+                        "length": 11
+                    },
+                    {
+                        "category": "food",
+                        "offset": 43,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have my burger cooked well done?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you offer any low-carb options?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a large order of buffalo wings?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 27,
+                        "length": 13
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are your available dessert options?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to order a chicken tikka masala.",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 20,
+                        "length": 20
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I substitute the fries for a side salad?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 38,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a medium-sized bowl of pasta?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 35,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'm craving some Chinese food. What do you suggest?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "What types of soups do you have today?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a combo meal with a drink and fries?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have any daily lunch specials?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your famous seafood platter.",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 28,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a chicken Caesar salad?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 14,
+                        "length": 20
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "What's the spiciest dish on your menu?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I customize my sandwich with specific ingredients?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you offer any vegan desserts?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I have extra cheese on my burger?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 30,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like a medium-rare steak with mashed potatoes.",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 23,
+                        "length": 5
+                    },
+                    {
+                        "category": "food",
+                        "offset": 34,
+                        "length": 15
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I would like to eat something",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are the available toppings for the pizza?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a family-sized meal for four people?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'm in the mood for sushi. What do you recommend?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you have any gluten-free options?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I get a side of garlic bread with my order?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 20,
+                        "length": 12
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I'd like to try your signature pasta dish.",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 31,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Could I have a cheeseburger with fries?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 15,
+                        "length": 23
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Can I order a large pepperoni pizza?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [
+                    {
+                        "category": "food",
+                        "offset": 14,
+                        "length": 21
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "Do you offer vegetarian options?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "What are your specials for today?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "I Can I get a menu, please?",
+                "language": "en-us",
+                "intent": "order food",
+                "entities": [],
+                "dataset": "Train"
+            }
+        ]
+    }
+}
